@@ -30,8 +30,8 @@ user_var_storage = {}
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('QJSEzfzg/i3dg57D2wjlDUyWlCPVsoCVwBqmeBR0aE4ZpLxVnhR8ZKXlyTcTfY77sjxNtWMHebr4INzSL3ruP/f2NeQdeL1/hAoj5YOBgSxO71BkpBaCVKgFuQSZy1fJUu92OroW7jK4kB/i80jE8wdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('764eb94b037e86f0f085bea184ba3c39')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 
 @app.route("/callback", methods=['POST'])
